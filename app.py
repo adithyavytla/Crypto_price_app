@@ -16,10 +16,10 @@ im=Image.open('cryptocurrencies.png')
 # Page layout
 ## Page expands to full width
 st.set_page_config(layout="wide",page_title="Crypto App",page_icon=im)
-'''st.markdown(""" <style>
+st.markdown(""" <style>
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
-</style> """, unsafe_allow_html=True)'''
+</style> """, unsafe_allow_html=True)
 html_temp = """
 <div style="background:#ed0af1 ;padding:10px">
 <h2 style="color:white;text-align:center;"> Crypto Price App </h2>
