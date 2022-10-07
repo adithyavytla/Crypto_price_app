@@ -21,6 +21,16 @@ st.markdown(""" <style>
 footer {visibility: hidden;}
 </style> """, unsafe_allow_html=True)
 html_temp = """
+st.markdown(
+    """
+<style>
+span[data-baseweb="tag"] {
+  background-color: #ed0af1 !important;
+}
+</style>
+""",
+    unsafe_allow_html=True,
+)
 <div style="background:#ed0af1 ;padding:10px">
 <h2 style="color:white;text-align:center;"> Crypto Price App </h2>
 </div>
